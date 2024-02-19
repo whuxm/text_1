@@ -12,7 +12,13 @@ int main(int, char **)
     {
         year = 1900;
         std::cout << "The year is now " << year << "!\n";
-        std::cout << "This is the last line!\n";
+    }
+    int month = 12;
+    while (month > 0)
+    {
+        month--;
+        year++;
+        std::cout << "Month " << month << " of " << year << "!\n";
     }
 
     return 0; // success
